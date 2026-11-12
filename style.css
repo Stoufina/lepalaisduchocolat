@@ -86,6 +86,9 @@ img{
 .pa-16{
 	padding: 16px;
 }
+.pa-32{
+	padding: 32px;
+}
 
 /*Composants*/
 .btn{
