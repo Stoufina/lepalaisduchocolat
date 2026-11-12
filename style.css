@@ -44,6 +44,8 @@ header{
 }
 .fond_chocolat{
 	background-image: url("assets/fond_chocolat.jpg");
+	width: 100%;
+	
 }
 
 /*Des classe de largeurs*/
@@ -58,6 +60,9 @@ header{
 }
 .largeur23{
 	width: 23%;
+}
+.largeur15{
+	width: 15%;
 }
 .logo{
 	width: 200px;
@@ -101,4 +106,9 @@ img{
 .cadre{
 	background-color: white;
 	color: black;
+}
+.carte{
+	background-color: white;
+	color: black;
+	border-radius: 16px;
 }
