@@ -44,7 +44,9 @@ header{
 }
 .fond_chocolat{
 	background-image: url("assets/fond_chocolat.jpg");
-	width: 100%;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
 	
 }
 
@@ -88,11 +90,17 @@ img{
 .mt-100{
 	margin-top: 100px;
 }
+.ml-32{
+
+}
 .pa-16{
 	padding: 16px;
 }
 .pa-32{
 	padding: 32px;
+}
+.pa-100{
+	padding: 100px;
 }
 
 /*Composants*/
@@ -103,12 +111,21 @@ img{
 	padding: 16px 32px;
 }
 
-.cadre{
-	background-color: white;
-	color: black;
-}
+
 .carte{
 	background-color: white;
 	color: black;
 	border-radius: 16px;
+}
+.carte_produit{
+	color: white;
+	width: 30%;
+
+}
+.carte-service{
+	background-color: white;
+	color: black;
+}
+.height100{
+	height: 100%;
 }

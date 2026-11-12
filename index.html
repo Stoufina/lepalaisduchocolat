@@ -12,66 +12,69 @@
     <header class="flex between align-center pa-16">
         <img class="logo" src="assets/logo-chocolat-1.png" alt="">
         <nav class="flex gap-32">
-            <a href="">Produits</a>
+            <a href="#produit">Produits</a>
             <a href="">Services</a>
             <a href="">Clients</a>
         </nav>
     </header>
 
     <!-- Section hero -->
-    <section class="flex between fond_chocolat">
-        <div class="flex pa-16 largeur48">
-            <h1>Le chocolat qui éveille vos pupilles</h1>
-            <div>
-                <a class="btn" href="">Devis gratuit</a>
-                <a class="btn" href="">Je découvre</a>
+    <section class="fond_chocolat">
+        <div class="flex align-center height100 around">
+            <div class="largeur48 pa-100">
+                <div>
+                    <h1 class="largeur48">Le chocolat qui éveille vos pupilles</h1>
+                </div>
+                <div class="flex mt-32 gap-32">
+                    <a class="btn" href="">Devis gratuit</a>
+                    <a class="btn" href="">Je découvre</a>
+                </div>
             </div>
-            <div class="largeur48">
+            <div class="largeur48 pa-100">
                 <img class="img" src="assets/gateau.jpg" alt="">
             </div>
-
         </div>
 
     </section>
 
     <!-- Section Produits -->
-    <section class="container background">
+    <section id="produit" class="background">
         <h3>Les Produits</h3>
-        <div class="flex between largeur100">
-            <div>
-                <img src="assets/praline-croustillant-pexels-seurafrancis99-37439237.jpg" alt="">
+        <div class="flex between container">
+            <div class="carte_produit mt-32">
+                <img class="largeur100" src="assets/praline.png" alt="">
                 <h4>Praliné croustillant</h4>
                 <p>Une ganache fondante au praliné, agrémentée d'éclats de noisettes croustillants. Un véritable délice
                     pour
                     les amateurs de chocolat et de fruits secs.</p>
             </div>
-            <div>
-                <img src="assets/truffe-champagne-pexels-planka-31325599.jpg" alt="">
+            <div class="carte_produit">
+                <img class="largeur100 mt-32" src="assets/truffe.png" alt="">
                 <h4>Truffe au Champagne</h4>
                 <p>Une ganache onctueuse et légèrement pétillante, enrobée de chocolat noir. Une saveur subtile et
                     délicate,
                     idéale pour les fêtes et les célébrations.</p>
             </div>
-            <div>
-                <img src="assets/chocolat_noir.jpg" alt="">
+            <div class="carte_produit">
+                <img class="largeur100 mt-32" src="assets/chocolat.png" alt="">
                 <h4>Tablette de chocolat noir 70%</h4>
                 <p>Un chocolat noir intense et puissant, aux notes de cacao amer et de fruits secs. Un grand classique
                     de la
                     chocolaterie, à déguster seul ou à utiliser en cuisine.</p>
             </div>
-            <div>
-                <img src="assets/coffret-chocolat.jpg" alt="">
+            <div class="carte_produit">
+                <img class="largeur100 mt-32" src="assets/coffret_chocolat.png" alt="">
                 <h4>Coffret de chocolats assortis</h4>
                 <p>Un assortiment de chocolats fins, sélectionnés avec soin par nos chocolatiers. Un cadeau gourmand et
                     raffiné, qui fera plaisir à coup sûr.</p>
             </div>
-            <div>
-                <img src="assets/chocolat_chaud.jpg" alt="">
+            <div class="carte_produit mt-32">
+                <img class="largeur100" src="assets/chocolat_chaud.jpg" alt="">
                 <h4>Chocolat Chaud</h4>
                 <p>Un chocolat chaud onctueux et réconfortant, à déguster en toute occasion.</p>
             </div>
-            <div>
-                <img src="assets/mendiants.jpg" alt="">
+            <div class="carte_produit mt-32">
+                <img class="largeur100" src="assets/mendiants.png" alt="">
                 <h4>Mendiants</h4>
                 <p>Des chocolats aux fruits secs et fruits confits, pour une explosion de saveurs en bouche</p>
             </div>
@@ -80,11 +83,11 @@
     </section>
 
     <!-- Section Services -->
-    <section class="container background">
+    <section class="background">
         <h3 class="pa-32">Les Services</h3>
         <div>
             <img src="assets/chocolat_artisanaux.jpg" alt="">
-            <div class="cadre">
+            <div class="carte-service">
                 <h4>Les chocolats artisanaux</h4>
                 <p>Découvrez notre sélection de chocolats faits à la main, alliant tradition et créativité pour des
                     saveurs uniques.</p>
@@ -93,7 +96,7 @@
 
         <div>
             <img src="assets/atelier_chocolat.jpg" alt="">
-            <div class="cadre">
+            <div class="carte-service">
                 <h4>Atelier de dégustation</h4>
                 <p>Participez à nos ateliers pour apprendre à déguster le chocolat comme un expert, en explorant ses
                     arômes et ses textures</p>
@@ -102,7 +105,7 @@
 
         <div>
             <img src="assets/cadeaux_perso.jpg" alt="">
-            <div class="cadre">
+            <div class="carte-service">
                 <h4>Cadeaux Personalisés</h4>
                 <p>Offrez des cadeaux gourmands avec nos coffrets de chocolats personnalisés, parfaits pour toutes les
                     occasions.</p>
@@ -111,7 +114,7 @@
     </section>
 
     <!-- Section Bénéfices -->
-    <section class="flex between background container pa-16">
+    <section class="flex between background pa-16">
         <div class="carte largeur23">
             <img src="assets/Certificat.png" alt="">
             <p>Des chocolats artisanaux de qualité supérieure, réalisés à partir d'ingrédients sélectionnés avec soin
@@ -134,7 +137,7 @@
     </section>
 
     <!-- Section clients -->
-    <section class="flex between background container">
+    <section class="flex between background">
         <div class="carte largeur30 pa-16">
             <h4>Sophie</h4>
             <img src="assets/note_etoile 1.png" alt="">
