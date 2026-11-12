@@ -1,0 +1,96 @@
+/*RESET*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: #845223;
+}
+
+header{
+	background-color: #CB9157;
+
+}
+
+.background{
+	background-color: #845223;
+}
+
+/*Mise en page : flexbox*/
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.between{
+	justify-content: space-between;
+}
+.around{
+	justify-content: space-around;
+}
+.align-center{
+	align-items: center;
+}
+.align-end{
+	align-items: flex-end;
+}
+.gap-16{
+	gap: 16px;
+}
+.gap-32{
+	gap: 32px;
+}
+.fond_chocolat{
+	background-image: url("assets/fond_chocolat.jpg");
+}
+
+/*Des classe de largeurs*/
+.largeur100{
+	width: 100%;
+}
+.largeur48{
+	width: 48%;
+}
+.largeur30{
+	width: 30%;
+}
+.largeur23{
+	width: 23%;
+}
+.logo{
+	width: 200px;
+}
+img{
+	width: 200px;
+}
+
+/*Container*/
+.container{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*margins et paddings*/
+.mt-16{
+	margin-top: 16px;
+}
+.mt-32{
+	margin-top: 32px;
+}
+.mt-100{
+	margin-top: 100px;
+}
+.pa-16{
+	padding: 16px;
+}
+
+/*Composants*/
+.btn{
+	display: inline-block;
+	background-color: #D9D9D9;
+	color: black;
+	padding: 16px 32px;
+}
